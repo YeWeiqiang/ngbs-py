@@ -132,7 +132,7 @@ def getInfo(wd):
 def run(stu_no, stu_password):
     try:
         option = webdriver.ChromeOptions( )
-        option.add_argument('window-size=1920x3000')  # 指定浏览器分辨率
+        option.add_argument('window-size=1920x3000')  # 指定浏览器分辨率,不打开浏览器情况下设置，不然有差异
         option.add_argument('--headless')
         option.add_argument('--disable-gpu')
         option.add_argument('--hide-scrollbars')  # 隐藏滚动条, 应对一些特殊页面

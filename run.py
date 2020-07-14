@@ -2,7 +2,7 @@ from flask import Flask, jsonify
 from flask import request
 from flask_cors import *
 
-from report_of_epidemic_Linux import *
+from report_of_epidemic import *
 
 # 实例化，可视为固定格式
 app = Flask(__name__)
